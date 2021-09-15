@@ -19,9 +19,9 @@ public class AccountTest {
     public void depositShouldIncreaseBalance() {
         Account account = new Account();
         account.addBalance(100);
-        assertThat(account.getBalance()).isEqualTo(0);
+        assertThat(account.getBalance()).isEqualTo(100);
         account.addBalance(-10);
-        assertThat(account.getBalance()).isEqualTo(0);
+        assertThat(account.getBalance()).isEqualTo(-90);
 
     }
 }
