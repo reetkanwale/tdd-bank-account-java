@@ -11,6 +11,6 @@ public class AccountTest {
 
     public void newAccountShouldHaveNoBalance() {
             Account account = new Account();
-            assertThat(account.getBalance()).isEqualTo(100);
+            assertThat(account.getBalance()).isEqualTo(0);
     }
 }
