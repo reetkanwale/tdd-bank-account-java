@@ -21,7 +21,7 @@ public class AccountTest {
         account.addBalance(100);
         assertThat(account.getBalance()).isEqualTo(100);
         account.addBalance(-10);
-        assertThat(account.getBalance()).isEqualTo(-90);
+        assertThat(account.getBalance()).isEqualTo(90);
 
     }
 }
